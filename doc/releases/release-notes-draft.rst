@@ -64,6 +64,11 @@ Libraries / Subsystems
   * Added a PSA Protected Storage backend, enabled with
     :kconfig:option:`CONFIG_FIDO2_STORAGE_PSA_PROTECTED_STORAGE`.
 
+* Input
+
+  * Input event callbacks can now be registered at runtime
+    with :c:func:`input_add_callback`.
+
 * LoRaWAN
 
   * The native backend now supports the AS923 region
